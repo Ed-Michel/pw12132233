@@ -23,7 +23,9 @@ header input{
     margin-top: 15px;
 }
 footer{
+    border-top: 5px solid lightgray;
     background: #4267B3;
+    margin-top: 45px;
 }
 
 #bgoffer{
@@ -79,11 +81,56 @@ footer{
     vertical-align: middle;
 }
 #terceraSeccion article input{
+    margin-top: 10px;
     border-radius: 5px;
+    border: 1px solid lightgray;
 }
 #terceraSeccion article input[type="button"]{
+    border: 1px solid #8BC500;
     background: #8BC500;
     color: white;
+}
+footer article{
+    display: inline-block;
+}
+#secc04art01{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+#secc04art02{
+    text-align: center;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    /* letter-spacing: 2px; */
+}
+#secc04art04{
+    position: relative;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 970px;
+    padding: 5px;
+}
+#facebook{
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+#twitter{
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+#monitos{
+    position: relative;
+    top: -70px;
+    left: 70px;
+}
+#secc04art05{
+    position: relative;
+    top: -175px;
+    left: 820px;
 }
 
 .colorazul{
@@ -104,6 +151,15 @@ footer{
 .letramediana{
     font-size: 2em;
 }
+.letramediana2{
+    font-size: 1.5em;
+}
+.letrapequena{
+    font-size: 0.8em;
+}
 .nito{
     font-weight: bold;
+}
+.fuenterara{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
