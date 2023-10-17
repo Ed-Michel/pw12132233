@@ -1,0 +1,121 @@
+body{
+    /* border: 1px solid red; */
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header article{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+header nav ul{
+    margin-left: -20px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+footer article{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+#headart02{
+    float: right;
+}
+#headart03{
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+}
+#headart04{
+    position: relative;
+    right: 110px;
+    top: 35px;
+}
+#sec01{
+    display: flex;
+    margin-left: 20px;
+}
+#sec01art01art01{
+    margin-top: 30px;
+}
+#sec01art02{
+    margin-right: 10px;
+}
+#sec02 article{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 35px;
+}
+#sec02art02{
+    vertical-align: middle;
+    position: relative;
+    right: 10px;
+}
+
+#first_bike{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#shop{
+    width: 180px;
+}
+#buy{
+    width: 50px;
+}
+#video01{
+    width: 270px;
+}
+#video02{
+    width: 270px;
+    margin-left: 20px;
+}
+#bici{
+    width: 400px;
+}
+#chino{
+    width: 140px;
+    margin-top: -100px;
+    position: relative;
+    bottom: 25px;
+}
+#facebook{
+    width: 20px;
+}
+#twitter{
+    width: 20px;
+}
+#signal{
+    width: 20px;
+}
+#voice{
+    width: 30px;
+}
+
+.letra-grande{
+    font-size: 4.5em;
+}
+.nito{
+    font-weight: bold;
+}
+.letra-verde{
+    color: #79EF46;
+}
+.letra-gris{
+    color: gray;
+}
+.fuente-arial{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.punteada{
+    border-style: dashed;
+    color: #949494;
+}
