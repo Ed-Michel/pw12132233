@@ -1,0 +1,88 @@
+img[alt]{
+    border: 5px solid blue;
+}
+
+img[src="img/teclogo.png"]{
+    width: 400px;
+}
+
+/* busca al inicio */
+img[src^="img/"]{
+    width: 150px;
+}
+/* busca al final */
+img[src$="png"]{
+    width: 250px;
+}
+/* busca en cualquier parte la cadena */
+img[src*="mg/"]{
+    width: 1000px;
+}
+
+/* equivalente a: 
+.resaltado
+.ingles 
+.archivo
+*/
+article[class~="resaltado"]{
+    border: 1px dashed blue;
+}
+article[class~="ingles"]{
+    border: 1px dashed red;
+}
+article[class~="archivo"]{
+    border: 1px dashed green;
+}
+
+/* para los clases separadas por guiones */
+article[class|="ingles"]{
+    text-align: center;
+}
+
+/* hijos directos */
+div > p{
+    color: blue;
+}
+/* todos los hijos */
+div p{
+    color: red;
+}
+
+/* siguiente elemento */
+h2 + p{
+    color: gray
+}
+/* todos los elementos */
+h2 ~ p{
+    color: green;
+}
+
+/* #resumen,#experimento,#pruebas,#resultados,#conclusiones{
+    color: blue;
+} */
+section:not(#referencias){
+    color: blue;
+}
+
+/* impares */
+li:nth-child(odd){
+    color: orange;
+}
+/* pares */
+li:nth-child(even){
+    color: rebeccapurple;
+}
+/* quinto elemento */
+li:nth-child(5){
+    color: red;
+}
+/* último elemento */
+li:nth-last-child(1){
+    color: darkgreen;
+}
+
+/* sólo afecta la primera línea */
+p::first-line{
+    color: red;
+    font-weight: bold;
+}
