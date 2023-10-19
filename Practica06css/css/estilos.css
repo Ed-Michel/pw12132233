@@ -72,22 +72,17 @@ footer article img{
 }
 #tablaseccion{
     width: 50%;
-    margin-left: 200px;
+    margin-left: 195px;
+    display: grid;
+    justify-content: start;
 }
 #tablaseccion2{
     width: 50%;
     margin-right: 90px;
     margin-bottom: 30px;
-}
-#tablaseccion section{
-    display: grid;
-    justify-content: start
-}
-#tablaseccion2 section{
     display: grid;
     justify-content: end;
 }
-
 
 #div1{
     position: relative;
