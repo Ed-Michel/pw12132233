@@ -181,6 +181,9 @@ img[src="img/cubo03.png"]{
 img[src="img/cubo04.png"]{
     width: 90px;
 }
+img[src="img/usuario01.png"]{
+    margin-top: 8px;
+}
 
 .letra-blanca{
     color: white;
