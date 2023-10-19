@@ -1,0 +1,134 @@
+body{
+    /* border: 1px solid red; */
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1024px;
+    font-family: sans-serif;
+}
+
+header{
+    background: black;
+}
+header article{
+    display: inline-block;
+}
+footer{
+    height: 200px;
+    background: black;
+}
+footer article{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+footer article:nth-child(5){
+    position: relative;
+    top: 40px;
+}
+footer article img{
+    position: relative;
+    right: 10px;
+}
+
+#headerart01{
+    margin-left: 55px;
+}
+#headerart02{
+    float: right;
+    margin-right: 45px;
+    margin-top: 11px
+}
+#headerart02 input[type="submit"]{
+    border-radius: 5px;
+}
+#headerart02 input[type="submit"]:nth-child(1){
+    background-color: #101112;
+    border: 1px solid white;
+    width: 125px;
+    height: 35px;
+}
+#headerart02 input[type="submit"]:nth-child(2){
+    background-color: #4c5ed4;
+    border: 1px solid black;
+    width: 85px;
+    height: 35px;
+}
+#sec01{
+    background: #e0dcf4 ;
+    text-align: center;
+    height: 250px;
+    position: relative;
+    bottom: 16px;
+}
+#sec01 input[type="text"]{
+    width: 508px;
+    height: 40px;
+}
+#todatabla{
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+#tablaseccion{
+    width: 50%;
+    margin-left: 200px;
+}
+#tablaseccion2{
+    width: 50%;
+    margin-right: 90px;
+    margin-bottom: 30px;
+}
+#tablaseccion section{
+    display: grid;
+    justify-content: start
+}
+#tablaseccion2 section{
+    display: grid;
+    justify-content: end;
+}
+
+
+#div1{
+    position: relative;
+    left: 45px;
+    bottom: 20px
+}
+#div2{
+    position: relative;
+    top: 50px;
+}
+img[src="img/logo-abstract.png"]{
+    width: 40px;
+    position: relative;
+    top: 9px;
+}
+
+.letra-blanca{
+    color: white;
+}
+.letra-azul{
+    color: #516ac4;
+}
+
+.letra-grande{
+    font-size: 3.5em;
+}
+.letra-pequena{
+    font-size: 0.5em;
+}
+.letra-mediana{
+    font-size: 0.7em;
+}
+.nito{
+    font-weight: bold;
+}
+.tamano-imagen{
+    width: 60px;
+    height: 60px;
+}
+.mover-imagen{
+    position: relative;
+    right: 75px;
+    top: 60px;
+}
