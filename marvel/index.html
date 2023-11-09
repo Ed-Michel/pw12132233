@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="nombre">Personajes Marvel</label>
+    <br>
+    <input type="text" id="nombre">
+    <button onclick="apimarvel();">
+        Random Comic
+    </button>
+    <p></p>
+    <!-- art#caja -->
+    <article id="caja">
+        <br>
+        <img src="" alt="" id="foto"> <br>
+        <span id="heroe"></span> <br>
+        <span id="descripcion"></span> <br>
+        <span id="comics"></span>
+    </article> 
+    <button onclick="anterior();"><--Anterior</button>
+    <button onclick="siguiente();">Siguiente--></button>
+    <script src="apimarvel.js"></script>
+</body>
+</html>
